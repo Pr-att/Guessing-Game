@@ -48,5 +48,7 @@ while not end_game:
         t1.pendown()
         t1.write(answer_state, font=('Times Nww Roman', 7, 'bold'))
         t1.hideturtle()
+    if score > 49:
+       end_game = True
 
 turtle.mainloop()
